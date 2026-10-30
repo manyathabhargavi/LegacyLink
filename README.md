@@ -64,3 +64,5 @@ If the backend uses different property names, update the relevant page's request
 - 404: route path or API prefix differs. Confirm `/api` and exact route names with backend owners.
 - UI list is empty but API returns data: inspect whether response is an array, `{data: [...]}`, `{items: [...]}`, or `{results: [...]}` and adjust `getList` in `src/api/client.js`.
 - Changes to `.env` do not apply: stop and restart `npm run dev`.
+# LegacyLink
+LegacyLink – Digital Legacy &amp; Asset Management Platform as a web application
